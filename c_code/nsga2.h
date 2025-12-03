@@ -1,0 +1,11 @@
+void leer_determinante();
+void genera_poblacion_inicial(void);
+void evaluar_poblacion(int, unsigned int);
+void fast_non_dominated_sort(unsigned int);
+void nueva_poblacion(void);
+double determinante2(double [][NUM_FEATURES], int);
+long double cofactor(double[][NUM_FEATURES], int, int);
+void reducir_poblacion(void);
+int evaluar_solucion(unsigned int);
+int buscar_clones (int);
+float abs_2(float value);
